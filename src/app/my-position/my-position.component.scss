@@ -1,0 +1,77 @@
+.green-background {
+    width: 230px;
+    height: 28px;
+    background-image: url(../image/big12.png);
+    margin: 0 0 10px;
+    padding: 0 0 0 -7px;
+    object-fit: contain;
+    border-radius: 14px;
+    border-style: solid;
+    border-width: 1px;
+    border-image-source: linear-gradient(to top, rgba(148, 85, 39, 1), rgba(255, 211, 114, 1), #945527);
+    border-image-slice: 1;
+    background-image: linear-gradient(to bottom, #0a905d, #0a905d), linear-gradient(to top, rgba(148, 85, 39, 1), rgba(255, 211, 114, 1), #945527);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+.main-text {
+    width: 84px;
+    height: 9px;
+    object-fit: contain;
+    font-family: CrocoSansCaps;
+    font-size: 13px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 0.75;
+    letter-spacing: normal;
+    text-align: left;
+    color: #fff;
+    padding-left: 12px;
+}
+
+.point {
+    width: 22px;
+    height: 10px;
+    object-fit: contain;
+    font-family: CrocoSansCaps;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.75;
+    letter-spacing: normal;
+    text-align: start;
+    color: #fff;
+}
+
+.mainpoint {
+    width: 100px;
+    height: 28px;
+    margin-left: 34px;
+    background-image: url(../image/small13.png);
+    object-fit: contain;
+    border-radius: 14px;
+    // background-color: #05452d;
+}
+
+.more {
+    width: 84px;
+    height: 14px;
+    margin: 9px 72px 0 74px;
+    object-fit: contain;
+    font-family: CrocoSansCaps;
+    font-size: 15px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2.2;
+    letter-spacing: normal;
+    text-align: center;
+    color: #fff;
+}

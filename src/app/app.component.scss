@@ -1,0 +1,30 @@
+.container {
+    width: 253px;
+    height: 157px;
+    background-image: url(../app/image/main2.png);
+    background-repeat: no-repeat;
+    margin: auto;
+    display: flex;
+    padding-top: 22px;
+    align-items: start;
+    justify-content: center;
+}
+
+// .container {
+//     width: 250px;
+//     height: 158px;
+//     margin: auto;
+//     object-fit: contain;
+//     border-radius: 8px;
+//     border-style: solid;
+//     border-width: 1px;
+//     border-image-slice: 1;
+//     border-image-source: linear-gradient(to top, rgba(148, 85, 39, 1), rgba(255, 211, 114, 1), #945527);
+//     background-image: linear-gradient(to bottom, #073783, #073783), linear-gradient(to top, rgba(148, 85, 39, 1), rgba(255, 211, 114, 1), #945527);
+//     background-origin: border-box;
+//     background-clip: content-box, border-box;
+//     display: flex;
+//     margin-top: 30px;
+//     align-items: start;
+//     justify-content: center;
+// }

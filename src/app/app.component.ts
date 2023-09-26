@@ -6,5 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'header';
+  positions = [
+    {position: "ჩემი პოზიცია", point: 100},
+    {position: "ჩემი ქულა", point: 100},
+    {position: "ჩემი პრიზი", point: 100}
+  ]
 }
